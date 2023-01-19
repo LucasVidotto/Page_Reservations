@@ -4,6 +4,6 @@
 
 # HardSkills:
 ## Front
-  <li>ReactjS  <img align="center" alt="React" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></li> 
+  <li>ReactjS  <img align="center" alt="React" height="16" width="16" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></li> 
   <li> Nextjs </li> 
   <li>Styled Components</li>
