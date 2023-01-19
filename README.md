@@ -2,4 +2,4 @@
 
 # HardSkills:
 ## Front
-  ReactjS + Nextjs + Styled Components
+  <li>ReactjS </li> <li> Nextjs </li> <li>Styled Components</li>
