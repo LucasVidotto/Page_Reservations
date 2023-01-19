@@ -1,5 +1,5 @@
 # Page_Reservations
 
-#HardSkills:
-##Front
+# HardSkills:
+## Front
   ReactjS + Nextjs + Styled Components
