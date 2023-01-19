@@ -1,0 +1,8 @@
+.global {
+  margin-top: 4.6rem;
+  /* margin-left: 40%; */
+  z-index: -1;
+}
+.image {
+  z-index: -1;
+}
