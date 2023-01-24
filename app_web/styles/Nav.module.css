@@ -1,6 +1,6 @@
 .nav {
   position: absolute;
-  top: 15px;
+  top: 23rem;
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
@@ -15,7 +15,7 @@
   display: flex;
   flex: 1 1 auto;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 70px;
   list-style-type: none;
 }
 .ul li:not(:last-child) {
@@ -24,7 +24,7 @@
 .ul li {
   border: 2px solid transparent;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   transition: background 0.2s;
 }
 .ul li a {

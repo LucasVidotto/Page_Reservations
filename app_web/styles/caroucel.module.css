@@ -32,14 +32,14 @@
   position: relative;
   width: 100vw;
   height: 400px;
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
 }
 
 .pic > img {
   position: absolute;
   width: 90%;
   height: 90%;
-  top: 10%;
+  top: 0;
   left: calc(12% - 100px);
   opacity: 0;
   animation: display 12s infinite;

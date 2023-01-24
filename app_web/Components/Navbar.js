@@ -8,7 +8,7 @@ export default function Navbar() {
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li>
-        <a href="#0">Clients</a>
+        <a href="/home">Clients</a>
         <ul className={styles.ul}>
           <li><a href="#0">Burger King</a></li>
           <li><a href="#0">Southwest Airlines</a></li>
@@ -16,7 +16,7 @@ export default function Navbar() {
         </ul>
       </li>
       <li>
-        <a href="#0">Services</a>
+        <a href="/rules">Rules</a>
         <ul>
           <li><a href="#0">Print Design</a></li>
           <li><a href="#0">Web Design</a></li>
