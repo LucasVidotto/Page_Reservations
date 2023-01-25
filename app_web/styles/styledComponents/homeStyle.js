@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 const HomeCard = styled.div`
     display:flex;
     margin-top:2rem;

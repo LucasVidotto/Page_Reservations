@@ -24,7 +24,21 @@ export default function Rules(){
                     </ol>
             </RulesPool>
             <RulesPoolTable>
-                        Pool table rules
+                <RulesSpan>
+                    Pool table rules
+                </RulesSpan>
+                <ol>
+                        <LI>Proibido sentar/andar em cima da mesa.</LI>
+                        <LI>Colocar copos/caneca de vidros ou de pláticos na borda ou 
+                            no centro.</LI>
+                        <LI>Passar qualquer tipo de produto no veludo(no quarto de casal 
+                            tem um aspiradorde pó caso seja necessário fazer uma limpeza.</LI>
+                        <LI>Ao fim do jogo recolher todas
+                             as bolas e colocar dentro da caixa espeficica.</LI>
+                        <LI>A utilização dos tacos é somente para o jogo, 
+                            cuidado ao manusear (custo de cada unidade R$ 200,00)</LI>
+                    </ol>
+                        
             </RulesPoolTable>
         </RulesCard>
         </>
