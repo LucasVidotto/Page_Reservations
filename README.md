@@ -8,3 +8,4 @@
   <li> Nextjs <img align="center" alt="nextjs" height="15" width="16" src="https://skillicons.dev/icons?i=nextjs" /></li> 
   <li>Styled Components</li>
   <li>RadixUi</li>
+## Back
