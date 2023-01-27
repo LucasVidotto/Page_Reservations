@@ -74,7 +74,8 @@
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
-  background: white;
+  background: #191919;
+  color: #e6e6e6;
   text-decoration: none;
   align-items: center;
   justify-content: center;
@@ -87,7 +88,7 @@
   top: 1px;
 }
 .slider > a:focus {
-  background: #000;
+  background: grey;
 }
 
 /* Don't need button navigation */

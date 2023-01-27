@@ -1,4 +1,5 @@
-import styled from '../styles/service.module.css'
+import styled from '../../styles/service.module.css'
+import ServicesDate from './serviceDate'
 export default function Service(){
     return(
         <>
@@ -44,6 +45,7 @@ export default function Service(){
                 </div>
             </div>
         </div>
+        <ServicesDate />
         </>
     )
 }

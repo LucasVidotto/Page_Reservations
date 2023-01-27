@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
     <ul className={styles.ul}>
       <li><a href="/">Home</a></li>
-      <li><a href="/service">About</a></li>
+      <li><a href="Services/service">About</a></li>
       <li>
         <a href="/home">Clients</a>
         <ul className={styles.ul}>

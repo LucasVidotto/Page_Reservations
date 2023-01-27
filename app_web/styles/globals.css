@@ -31,3 +31,21 @@ a {
     background: black;
   }
 }
+.special-label {
+  display: none;
+  outline: none;
+}
+
+.form-control {
+  position: relative;
+  left: -13%;
+  background: transparent;
+  border: none;
+  color: black;
+  padding: 0.4rem;
+  width: 80%;
+}
+
+.form-control:focus {
+  outline: none;
+}
