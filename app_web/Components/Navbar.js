@@ -10,7 +10,7 @@ export default function Navbar() {
       <li>
         <a href="/home">Clients</a>
         <ul className={styles.ul}>
-          <li><a href="#0">Burger King</a></li>
+          <li><a href="/Assessments/assessments">Assessments</a></li>
           <li><a href="#0">Southwest Airlines</a></li>
           <li><a href="#0">Levi Strauss</a></li>
         </ul>

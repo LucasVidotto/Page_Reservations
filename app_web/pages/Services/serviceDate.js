@@ -12,29 +12,31 @@ export default function ServicesDate(){
     const [phone, setPhone] = useState('');
 
     function handlerteste(){
-        axios
+        /* axios
         .post(baseURL, {
-            name: "Hello World!",
-            last: "This is a new post.",
-            phone: "321321",
+            name: name,
+            last: last,
+            phone: phone,
       })
       .then((response) => {
         alert('Feito');
-      });
+      }); */
+      alert('testado');
     
     }
+    
     return(
         <>
         <Dialog.Root>
             <Dialog.Trigger asChild>
             <button className = {Styled.Buttonviolet} size="large">
-                Edit profile
+                Reserve 
             </button>
             </Dialog.Trigger>
             <Dialog.Portal>
             <Dialog.Overlay className = {Styled.DialogOverlay} />
             <Dialog.Content className = {Styled.DialogContent}>
-                <Dialog.Title className = {Styled.DialogTitle}>Edit profile</Dialog.Title>
+                <Dialog.Title className = {Styled.DialogTitle}>Booking Details</Dialog.Title>
                 <Dialog.Description className = {Styled.DialogDescription}>
                 Make changes to your profile here. Click save when you're done.
                 </Dialog.Description>
@@ -46,12 +48,12 @@ export default function ServicesDate(){
                     className = {Styled.Input} 
                     id="name" 
                     /* defaultValue="Pedro Duarte" */ 
-                    placeholder="Lucas Vidotto"
+                    placeholder="Lucas"
                     onChange={(e)=>setName(e.target.value)}/>
                 </fieldset>
                 <fieldset className = {Styled.Fieldset}>
                 <label className = {Styled.Label} htmlFor="username">
-                    Username
+                    Last Name
                 </label>
                 <input 
                 className = {Styled.Input} 
@@ -69,6 +71,16 @@ export default function ServicesDate(){
                     country={'us'}
                     value={phone}
                     onChange={phone => setPhone(phone)}
+                />
+                </fieldset>
+                <fieldset className = {Styled.Fieldset}>
+                <label className = {Styled.Label} htmlFor="phone">
+                    People
+                </label>
+                <input
+                    type="number"
+                    className = {Styled.Input}
+                    placeholder="5" 
                 />
                 </fieldset>
                 <div style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
