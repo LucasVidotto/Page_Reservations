@@ -1,6 +1,6 @@
 # Page_Reservations
 
-### Página destinada a reserva(s) de edículas
+### Página destinada a reserva(s) de edícula(s)
 
 # HardSkills:
 ## Front
